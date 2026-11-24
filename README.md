@@ -29,5 +29,3 @@ A modern personal portfolio built with React and Vite.
 ## Run Locally
 
 ```bash
-npm install
-npm run dev
