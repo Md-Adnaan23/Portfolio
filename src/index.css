@@ -553,72 +553,20 @@ footer {
 ========================= */
 
 @media (max-width: 850px) {
-.menu-toggle {
-  display: none;
+.navbar {
+  height: auto;
+  padding: 12px 6vw;
+  flex-wrap: wrap;
+  row-gap: 8px;
 }
 
-@media (max-width: 850px) {
-  .navbar {
-    height: 64px;
-    padding: 0 6vw;
-    flex-wrap: nowrap;
-    gap: 12px;
-  }
-
-  .navbar .nav-button {
-    margin-left: auto;
-    white-space: nowrap;
-  }
-
-  .menu-toggle {
-    order: 1;
-    display: grid;
-    place-items: center;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--surface);
-    color: var(--accent);
-    font-size: 22px;
-    line-height: 1;
-    cursor: pointer;
-  }
-
-  .navbar nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 4px 6vw 8px;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .navbar nav.is-open {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 0;
-  }
-
-  .navbar nav a {
-    display: flex;
-    align-items: center;
-    min-height: 44px;
-    color: var(--text);
-    font-size: 14px;
-  }
-
-  .navbar nav a + a {
-    border-top: 1px solid var(--border);
-  }
-
-  section[id] {
-    scroll-margin-top: 64px;
-  }
+.navbar nav {
+  display: flex;
+  order: 1;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
 }
 
   .hero {
