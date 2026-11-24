@@ -6,7 +6,7 @@ export const skills = [
       "Python",
       "C",
       "JavaScript",
-      "SQL",
+      
     ],
   },
 
@@ -43,8 +43,8 @@ export const skills = [
     items: [
       "RAG",
       "LLM Applications",
-      "Embeddings",
-      "Vector Search",
+      "Learning Embeddings",
+      "Learning Vector Search",
     ],
   },
 
