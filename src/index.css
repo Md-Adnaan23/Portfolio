@@ -569,10 +569,6 @@ footer {
   gap: 4px 12px;
 }
 
-.navbar nav a {
-  padding: 6px 0;
-}
-
   .hero {
     grid-template-columns: 1fr;
     padding-top: 70px;
