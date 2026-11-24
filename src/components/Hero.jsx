@@ -41,7 +41,8 @@ export default function Hero() {
 
         <div className="status">
           <span></span>
-          Frontend Development
+
+          React · RAG-Powered Document Search.
         </div>
       </div>
     </section>
