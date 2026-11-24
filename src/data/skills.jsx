@@ -42,7 +42,7 @@ export const skills = [
     category: "AI / Generative AI",
     items: [
       "RAG",
-      "LLM Applications",
+      "Basic LLM Applications",
       "Learning Embeddings",
       "Learning Vector Search",
     ],
