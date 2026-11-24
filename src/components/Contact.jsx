@@ -25,7 +25,7 @@ export default function Contact() {
           GitHub
         </a>
 
-        <a href="https://www.linkedin.com/in/md-adnaan/" onClick={(e) => e.preventDefault()}>
+        <a href="https://www.linkedin.com/in/md-adnaan-b846ab303/">
           LinkedIn
         </a>
       </div>
