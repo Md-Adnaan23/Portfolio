@@ -553,9 +553,25 @@ footer {
 ========================= */
 
 @media (max-width: 850px) {
-  .navbar nav {
-    display: none;
-  }
+.navbar {
+  height: auto;
+  padding: 12px 6vw;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.navbar nav {
+  display: flex;
+  order: 1;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+.navbar nav a {
+  padding: 6px 0;
+}
 
   .hero {
     grid-template-columns: 1fr;
